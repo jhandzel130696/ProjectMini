@@ -1,0 +1,90 @@
+/**Navigation**/
+ul {
+    list-style-type: none;
+}
+li {
+    display:inline;
+    padding-right: 20px;
+
+}
+.navigation a{
+    text-decoration:none;
+    color:black;
+}
+.container {
+    display:flex;
+    justify-content:flex-end;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+ p {
+    font-size: 55px;
+}
+.btn {
+    text-decoration:none;
+    padding:20px 30px 20px 30px;
+    background: yellowgreen;
+    border-radius:10px;
+    color:white;
+    font-family: 'Lobster', cursive;
+
+
+   
+    
+}
+
+
+.splash {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:450px;
+    flex-direction: column;
+
+}
+
+.background{
+    
+    background-size:cover;
+    background-attachment:fixed;
+  
+    background-image:url(https://i.postimg.cc/kXbYrs9m/pexels-francesco-ungaro-606511.jpg);
+ 
+    }
+
+    /**services**/
+
+    .services {
+        text-align:center;
+       padding:50px;
+    }
+    .row {
+        display:flex;
+margin:80px;
+    }
+
+    .one,.two,.three {
+        flex:1;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        
+        align-items:center;
+        
+    }
+        
+    .border {height:80px;
+    width:80px;
+border:solid yellow 2px;
+border-radius:30px;
+display:flex;
+justify-content: center;
+align-items: center;}
+   
+
+    
+  
