@@ -11,7 +11,7 @@ li {
     text-decoration:none;
     color:black;
 }
-.container {
+.navi {
     display:flex;
     justify-content:flex-end;
     
@@ -62,9 +62,8 @@ h1{
         text-align:center;
        padding:50px;
     }
-    .row {
-        display:flex;
-margin:80px;
+    .icon {
+        margin:80px;
     }
 
     .one,.two,.three {
@@ -98,8 +97,8 @@ p3{
    body {
        max-width: 1500px;
    }
-   
-      
+  
+
    img {
        max-width: 100%;
        max-height:100%;
@@ -114,5 +113,29 @@ p3{
     display:flex;
     max-width:300px;
     flex-direction: column;
+    padding:0;
+    margin:5px;
+    background-color: white;
     }
+    
+    h4{
+        font-family: 'Lobster', cursive;
+    }
+.brands {
+    display:flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+footer {
+    padding:30px;
+}
+.fab {
+    margin-right: 5px;
+}
+.mama {
+    display:flex;
+    justify-content: center;
+}
     
