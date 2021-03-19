@@ -97,6 +97,7 @@ align-items: center;}
        text-align: center;
        background-color: #E2E6E6 ;
        padding-top: 30px;
+       padding-bottom: 30px;
    }
 
    img {
@@ -111,7 +112,7 @@ align-items: center;}
 .brands {
     display:flex;
     
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     
 }
@@ -120,4 +121,14 @@ footer {
 }
 .fab {
     margin-right: 5px;
+}
+.name {
+    background-color:white;
+}
+
+.seven,.eight,.nine {
+    margin-top: 20px;
+}
+.four,.five,.six {
+    margin-top: 40px;
 }
