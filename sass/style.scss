@@ -2,6 +2,7 @@
 ul {
     list-style-type: none;
 }
+ 
 li {
     display:inline;
     padding-right: 20px;
@@ -9,7 +10,7 @@ li {
 }
 .navigation a{
     text-decoration:none;
-    color:black;
+    color:white;
 }
 .navi {
     display:flex;
@@ -20,22 +21,28 @@ h1{
     font-family: 'Lobster', cursive;
     font-size: 35px;
     text-align: center;
+    color: white;
 }
  p {
     font-size: 55px;
+    color:white;
+    text-align: center;
 }
 .btn {
     text-decoration:none;
-    padding:20px 30px 20px 30px;
-    background: yellowgreen;
-    border-radius:10px;
     color:white;
     font-family: 'Lobster', cursive;
-
-
-   
-    
+    padding:20px;
+    background-color: yellowgreen;
+    border-radius: 20px;
 }
+
+
+    
+.third {
+    text-align: center;
+}
+
 
 
 .splash {
@@ -98,15 +105,6 @@ align-items: center;}
    }
    
        
-   
-/**.four,.five,.six,.seven,.eight,.nine{
-    display:flex;
-    flex-direction: column;
-    padding:0;
-    margin:5px;
-    background-color: white;
-    }**/
-    
     h4{
         font-family: 'Lobster', cursive;
     }
